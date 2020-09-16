@@ -694,6 +694,12 @@
       <root type="TextField">
         <Required>N</Required>
       </root>
+      <tls_ciphers type="JsonKeyValueStoreField">
+        <Required>N</Required>
+        <Multiple>Y</Multiple>
+        <ConfigdPopulateAct>nginx tls_ciphers</ConfigdPopulateAct>
+        <SourceFile>/tmp/ciphers.json</SourceFile>
+      </tls_ciphers>
       <certificate type="CertificateField">
         <Type>cert</Type>
         <Required>N</Required>

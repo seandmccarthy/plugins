@@ -88,6 +88,12 @@
     <help>If the request exceeds this size, it will be written to disk. Enter a number and a unit like 1m.</help>
   </field>
   <field>
+    <id>httpserver.tls_ciphers</id>
+    <label>TLS Ciphers</label>
+    <type>select_multiple</type>
+    <help><![CDATA[Override the default cipher list by selecting one or more ciphers from this list.]]></help>
+  </field>
+  <field>
     <id>httpserver.certificate</id>
     <label>TLS Certificate</label>
     <type>dropdown</type>
